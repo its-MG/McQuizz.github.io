@@ -9,7 +9,7 @@ const questions = [
     ],
   },
   {
-    question: "When was MicroClub found ?",
+    question: "When was MicroClub founded ?",
     answers: [
       { text: "1985", correct: true },
       { text: "2002", correct: false },
@@ -42,6 +42,15 @@ const questions = [
       { text: "3", correct: true },
       { text: "4", correct: false },
       { text: "7", correct: false },
+    ],
+  },
+  {
+    question: "What is the field of Microclub ?",
+    answers: [
+      { text: "Chemistry", correct: false },
+      { text: "Technology", correct: true },
+      { text: "Biology", correct: false },
+      { text: "Civil engineering", correct: false },
     ],
   },
 ];
